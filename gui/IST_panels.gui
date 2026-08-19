@@ -2,7 +2,7 @@ widget = {
     name = IST_panels
     layer = layer_ingame_menu
     size = { 100% 100% }
-
+    visible = "[GetMetaPlayer.GetPlayedOrObservedCountry.IsValid]"
     vbox = {
         parentanchor = top|left
         layoutpolicy_horizontal = expanding
